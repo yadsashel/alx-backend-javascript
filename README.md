@@ -42,19 +42,3 @@ To set up Node.js on your sandbox, follow these steps:
    sudo bash nodesource_setup.sh
    sudo apt install nodejs -y
 ```
-
----
-
-### Guide to Installing Node.js in the Sandbox
-
-To install Node.js in the ALX sandbox, you can follow these steps:
-
-1. **Log in to your sandbox environment.**
-
-2. **Run the following commands to download and install Node.js:**
-
-   ```bash
-   curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
-   sudo bash nodesource_setup.sh
-   sudo apt install nodejs -y
-```
