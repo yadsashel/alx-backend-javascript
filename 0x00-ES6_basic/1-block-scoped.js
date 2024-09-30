@@ -1,16 +1,11 @@
-
-mport { taskFirst, taskNext } from './0-constants.js';
-rt default function taskBlock(trueOrFalse) {
-  const task = false;
-  const task2 = true;
+export default function taskBlock(trueOrFalse) {
+  let task = false; // Use let to allow block scope
+  let task2 = true; // Use let to allow block scope
 
   if (trueOrFalse) {
-    let task = true;  // block-scoped variable
-    let task2 = false; // block-scoped variable
+    task = true; // Update the outer variable
+    task2 = false; // Update the outer variable
   }
 
-  return [task, task2];  // returns the outer scope variables
+  return [task, task2];
 }
-
-
-console.log(`${taskFirst()} ${taskNext()}`);
