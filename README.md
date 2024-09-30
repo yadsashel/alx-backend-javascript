@@ -43,7 +43,6 @@ To set up Node.js on your sandbox, follow these steps:
    sudo apt install nodejs -y
 ```
 
-
 ---
 
 ### Guide to Installing Node.js in the Sandbox
